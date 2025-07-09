@@ -16,5 +16,5 @@ export default function HomeScreen({ navigation }) {
 const styles = StyleSheet.create({
   bg: { flex: 1, justifyContent: 'center' },
   container: { alignItems: 'center' },
-  title: { fontSize: 24, fontWeight: 'bold', color: 'white', marginBottom: 20 },
+  title: { fontSize: 30, fontWeight: 'bold', color: 'black', marginBottom: 20, textAlign: 'center', backgroundColor: '#daeefe' },
 });

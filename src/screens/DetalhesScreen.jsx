@@ -16,7 +16,7 @@ export default function DetalhesScreen({ route, navigation }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20 },
+  container: { flex: 1, padding: 20, backgroundColor: '#ffffdf' },
   img: { height: 200, width: '100%', borderRadius: 10 },
   title: { fontSize: 24, fontWeight: 'bold', marginTop: 10 },
   desc: { fontSize: 16, marginTop: 10, marginBottom: 15 },
